@@ -37,8 +37,8 @@ class MainActivity: FlutterActivity() {
         handler = Handler(Looper.getMainLooper())
 
         val pnConfiguration = PNConfiguration("MyUniqueUUID")
-        pnConfiguration.subscribeKey = "sub-c-c84cf3ae-c7da-49d5-a044-c3b55b84bed9"
-        pnConfiguration.publishKey = "pub-c-8290cf60-30c1-4e75-bdb7-b3ac46a0282b"
+        pnConfiguration.subscribeKey = ""
+        pnConfiguration.publishKey = ""
 
         pubNub = PubNub(pnConfiguration)
 
